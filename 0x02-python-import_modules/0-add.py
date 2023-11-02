@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-def magic_calculation(a, b, c):
-    if a < b:
-        return c
-    elif c > b:
-        return a + b
-    return a * b - c
+if __name__ == "__main__":
+    from add_0 import add
+    a = 1
+    b = 2
+    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
